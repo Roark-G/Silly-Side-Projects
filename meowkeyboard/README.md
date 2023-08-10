@@ -41,7 +41,7 @@ cd desktop\meowkeyboard
 ```
 2. You could also use the full file path as well like 
 ```
-cd C:\Users\taill\Desktop\Silly-Side-Projects\meowkeyboard
+cd C:\Users\tiramisu\Desktop\Silly-Side-Projects\meowkeyboard
 ```
 3. Once there, run:
 ```
