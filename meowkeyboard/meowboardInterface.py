@@ -15,7 +15,10 @@ recordingState = None
 window = tk.Tk()
 window.geometry("275x200")
 window.configure(bg=colorPallete['bg'])
-window.iconbitmap("meowkeyboard/catpawIcon.ico")
+try:
+    window.iconbitmap("Silly-Side-Projects\meowkeyboard\catpawIcon.ico")
+except:
+    None
 window.title("Meow Keyboard Settings")
 
 #helpful
@@ -108,6 +111,13 @@ button1 = tk.Button(window, text="Save",
                     background=colorPallete['extra'], 
                     padx=10, pady=5)
 button1.grid(column=0,row=2)
+
+button1 = tk.Label(window, text="Tiramisukat on tumblr :3",  
+                    font=('Arial', 10, ''), 
+                    foreground=colorPallete['font'], 
+                    background=colorPallete['bg'], 
+                    padx=10, pady=5)
+button1.grid(column=0,row=5)
 
 keyboard.on_press(onKeyPress)
 
