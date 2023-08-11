@@ -15,10 +15,6 @@ recordingState = None
 window = tk.Tk()
 window.geometry("275x200")
 window.configure(bg=colorPallete['bg'])
-try:
-    window.iconbitmap("Silly-Side-Projects\meowkeyboard\catpawIcon.ico")
-except:
-    None
 window.title("Meow Keyboard Settings")
 
 #helpful
